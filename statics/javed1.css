@@ -1,0 +1,113 @@
+
+.container{
+    border: 1px solid brown;
+   
+    margin: 70px;
+    font-family: 'Patrick Hand', cursive;
+    width: 50vw;
+    background: #ff8a6530;
+    border: 2px solid black;
+    border-top-left-radius: 21px;
+    border-top-right-radius: 45px;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius: 40px;
+    font-weight: 900;
+    text-align: justify;
+   
+    
+    
+}
+.container{
+    display: none;
+}
+ .bat:hover .container{
+    display: block;
+}
+  
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #a64db61d;
+
+}
+*{
+    background-image: url('./../img/5.jpg');
+    background-repeat:no-repeat;
+    background-position:900px 170px;
+    border:2px 3px 4px 5px ;
+    background-color:#e2e0fa59;
+    background-attachment: fixed;
+
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 1px 21px;
+  list-style:none;
+  
+  text-decoration: none;
+  border: 1px solid black;
+ border-top-left-radius: 31px;
+border-top-right-radius: 31px;
+border-bottom-left-radius:31px;
+border-bottom-right-radius: 31px;
+margin: 6px 68px;
+
+}
+
+li a:hover {
+  background-color: rgba(17, 17, 17, 0.299);
+}
+
+
+h1{
+    background-color: palevioletred;
+    
+}
+.btn{
+  text-decoration: rgba(17, 17, 17, 0.374);
+  
+  text-align: center;
+  padding: 10px;
+  margin: 70px; 
+  width:10vw;
+  border: 1px solid red;
+  height: auto;
+  border: 2px solid black;
+border-top-left-radius: 80px;
+border-top-right-radius: 85px;
+border-bottom-left-radius:70px;
+border-bottom-right-radius: 70px;
+font-weight: 900;
+}
+.bat{
+  padding: 30px;
+  margin: 4px;
+  display: block;
+ 
+  
+}
+
+
+
+
+
+
+
+.fa fa-audio-description{
+
+margin: 0px 0px;
+padding: 0px 0px;
+width:10vw
+
+}

@@ -1,0 +1,45 @@
+form{
+        
+    border: 2px solid black;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius:70px;
+    border-bottom-right-radius: 70px;
+    font-weight: 900;
+    font-family: cursive;
+    
+    }
+    p{
+        display: none;
+        background-color: yellow;
+        padding:10px;
+    }
+    .bat:hover p{
+        display: block;
+    }
+    h1{
+        border: 2px solid red;
+        width: 443px;
+        border-radius:4px;
+    }
+    .button{
+        color: red
+    }
+    .button:hover{
+        color: blueviolet;
+    }
+    div:first-child{
+        background-color:pink;
+    } 
+    p:first-child  {
+        background-color:rgb(25, 255, 67);
+    }
+
+
+    .singup{
+
+        background-image: url('./../img/1.jpeg');
+    }
+        
+   
+   

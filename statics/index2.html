@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>magical nootebook</title>
+
+    <!---css ke liye-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!------ js bootstrap waali -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- jsss ke liye -->
+    <script src="javed1.js"></script>
+
+</head>
+<style>
+    h2{
+        text-align: justify;
+        width: 75%;
+    }
+</style>
+
+<body>
+    <div class="container my-3" >
+        <h2> Welcome To Magical Notes</h2>
+        <hr>
+        <h3> Add notes</h3>
+        <hr>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="addTxt"></textarea>
+            
+          </div>
+          <button type="button" class="btn btn-danger my-3" id ="addBtn" onclick="addBtnClickedFn();"> ADD notes</button>
+          <div class="card" style="width: 18rem;">
+
+            <h1> your notes</h1>
+            <hr>
+            <div id="notes" class="containerfluid mx-2 my-2"></div>
+          
+            <div class="card-body my-2 mx-2 " >
+              <h5 class="card-title">Notes</h5>
+              <p class="card-text"></p>
+              <a href="#" class="btn btn-primary">delete notes</a>
+              
+            </div>
+          </div>
+          <div id="notes" class="containerfluid  "></div>
+          
+            <div class="card-body my-2 mx-2 " >
+              <h5 class="card-title">Notes</h5>
+              <p class="card-text"></p>
+              <a href="#" class="btn btn-primary">delete notes</a>
+              
+            </div>
+          </div>
+    </div>
+</body>
+
+</html>

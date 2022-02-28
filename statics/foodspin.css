@@ -1,0 +1,103 @@
+/*reset css*/
+body{
+    margin:0px;
+    padding: 0px;
+    
+    background-repeat: no-repeat;
+}
+*{
+   
+    background-image: url('./../img/figma2.png');
+    background-repeat:no-repeat;
+    background-position:500px 30px;
+    
+    background-color: #deffdf;
+    
+    
+   
+}
+ 
+.left{
+    
+    
+    color: red;
+    display: inline-block;
+    position: absolute;
+    top: 31px;
+    left: 74px;
+}
+.img{
+    display: inline-block;
+    
+    margin: -281px 818px;
+    background-attachment: fixed;
+
+
+}
+.right{
+    
+    color: #FFFFFF;
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top:35px;
+
+}
+.mid{
+    
+    color: blue;
+    display: block;
+    width: 74%;
+   margin: 12px auto;
+
+}
+.navbar{
+    display: inline-block;
+
+}
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+    
+}
+.navbar li a{
+    color:#333333;
+    
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.container1{
+    
+    padding: 13px;
+    margin: 79px;
+    width: 35vw;
+
+}
+h1{
+    font-size: 45px;
+    color:#54BF29;
+}
+h2,h3{
+    font-size: 30px;
+}
+input[type=submit] {
+  width: -2%;
+  display:flex;
+  text-align: center;
+  background-color: #54BF29;
+  color: rgb(255, 255, 255);
+  padding: 20px 80px;
+  margin: -2 0px;
+  border: none;
+  border-radius: 45px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #6245a0c4;
+  }
+.container3{
+    left: 99px;
+    padding: 0px 133px;
+    margin: 4px 4px;
+}
